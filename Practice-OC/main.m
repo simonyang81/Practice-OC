@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FKPerson.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -25,22 +26,57 @@ int max(int* data, int len) {
     return max;
 }
 
+void map(int* data, int len, int (*fn) ()) {
+
+    for (int* p = data; p < data + len; p++) {
+        printf("%p-%p,", p, data);
+    }
+
+    printf("\n\n");
+
+    for (int*p = data; p < data + len; p++) {
+        printf("%d, ", (*fn)(*p));
+    }
+
+    printf("\n");
+}
+
+int noChange(int val) {
+    return val;
+}
+
+int square(int val) {
+    return val * val;
+}
+
+int cube(int val) {
+    return val * val * val;
+}
+
 int main(int argc, const char * argv[]) {
 
     @autoreleasepool {
 
-        int i1 = 1, i2 = 2;
+//        int data[] = {20, 12, 8, 36, 24};
+//
+//        map(data, sizeof(data)/sizeof(data[0]), cube);
 
-        NSLog(@"i1 == %d, i2 == %d", i1, i2);
-        swap(&i1, &i2);
-        NSLog(@"i1 == %d, i2 == %d", i1, i2);
+        FKPerson* person = [[FKPerson alloc] init];
+        [person setName:@"Simon" andAge:35];
+        [person sayHi:@"How do you do!"];
 
-        int data[] = {1, 5, 7, 13, 10, 11};
-
-        // function pointer
-        int (*fnPt) () = max;
-
-        NSLog(@"The max data is: %d", fnPt(data, 6));
+//        int i1 = 1, i2 = 2;
+//
+//        NSLog(@"i1 == %d, i2 == %d", i1, i2);
+//        swap(&i1, &i2);
+//        NSLog(@"i1 == %d, i2 == %d", i1, i2);
+//
+//        int data[] = {1, 5, 7, 13, 10, 11};
+//
+//        // function pointer
+//        int (*fnPt) () = max;
+//
+//        NSLog(@"The max data is: %d", fnPt(data, 6));
 
     }
 

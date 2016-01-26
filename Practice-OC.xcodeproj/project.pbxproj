@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C3008205B414EDC27BC44A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300900D4836789EB2B6105 /* main.m */; };
+		4C300F1BC5D70EA97357D265 /* FKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3002786F4F03E9754B10C6 /* FKPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C3002786F4F03E9754B10C6 /* FKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKPerson.m; sourceTree = "<group>"; };
+		4C3002E44E2E98AC4B3ED04D /* FKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKPerson.h; sourceTree = "<group>"; };
 		4C3006D735F5B835D83E0BBC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		4C300900D4836789EB2B6105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C300BB7E63F18BF19C49FB5 /* Practice-OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practice-OC"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				4C300900D4836789EB2B6105 /* main.m */,
+				4C3002786F4F03E9754B10C6 /* FKPerson.m */,
+				4C3002E44E2E98AC4B3ED04D /* FKPerson.h */,
 			);
 			path = "Practice-OC";
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C3008205B414EDC27BC44A1 /* main.m in Sources */,
+				4C300F1BC5D70EA97357D265 /* FKPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
