@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "FKPerson.h"
+#import "PracticeNslog.h"
+#import "PracticeArray.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -57,10 +59,22 @@ int main(int argc, const char * argv[]) {
 
     @autoreleasepool {
 
+//        NSLog(@"*** Practice NSLog ***");
+        NSLog(@"\n*** Practice NSLog ***\n");
+        PracticeNslog* log = [[PracticeNslog alloc] init];
+        [log print];
+
+        NSLog(@"\n*** Practice Array ***\n");
+        PracticeArray* practiceArray = [[PracticeArray alloc] init];
+        [practiceArray printArr];
+        [practiceArray initArr:10 withLen:5];
+        [practiceArray printArr];
+
 //        int data[] = {20, 12, 8, 36, 24};
 //
 //        map(data, sizeof(data)/sizeof(data[0]), cube);
 
+        NSLog(@"\n\n*** Practice FKPerson ***\n");
         FKPerson* person = [[FKPerson alloc] init];
         [person setName:@"Simon" andAge:35];
         [person sayHi:@"How do you do!"];
