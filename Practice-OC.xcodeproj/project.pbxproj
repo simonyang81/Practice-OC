@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3003F514DA39D8800C3555 /* PracticeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300998E225EF063E37F02A /* PracticeArray.m */; };
+		4C3005E98DA790C7C297B4F1 /* PracticeNslog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300CC090AC5CB1CE33F62E /* PracticeNslog.m */; };
 		4C3008205B414EDC27BC44A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300900D4836789EB2B6105 /* main.m */; };
+		4C300B4D7B852C577611503A /* Varargs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3001217F0EE3CA1ED6D278 /* Varargs.m */; };
+		4C300EE358B01D5C4AEC6B92 /* FunctionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300D3072B3DF7DC6FBC279 /* FunctionTest.m */; };
 		4C300F1BC5D70EA97357D265 /* FKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3002786F4F03E9754B10C6 /* FKPerson.m */; };
 /* End PBXBuildFile section */
 
@@ -24,11 +28,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C3001217F0EE3CA1ED6D278 /* Varargs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Varargs.m; sourceTree = "<group>"; };
 		4C3002786F4F03E9754B10C6 /* FKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKPerson.m; sourceTree = "<group>"; };
 		4C3002E44E2E98AC4B3ED04D /* FKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKPerson.h; sourceTree = "<group>"; };
+		4C3005142ED22E6CBAB041A6 /* FunctionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionTest.h; sourceTree = "<group>"; };
 		4C3006D735F5B835D83E0BBC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		4C300900D4836789EB2B6105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C300998E225EF063E37F02A /* PracticeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeArray.m; sourceTree = "<group>"; };
 		4C300BB7E63F18BF19C49FB5 /* Practice-OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practice-OC"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C300CC090AC5CB1CE33F62E /* PracticeNslog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeNslog.m; sourceTree = "<group>"; };
+		4C300CEAB343A42E6BB56D09 /* Varargs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Varargs.h; sourceTree = "<group>"; };
+		4C300D1BA65FE4191D8D6765 /* PracticeNslog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeNslog.h; sourceTree = "<group>"; };
+		4C300D3072B3DF7DC6FBC279 /* FunctionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionTest.m; sourceTree = "<group>"; };
+		4C300D8D725086388A2FC9A8 /* PracticeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,14 @@
 				4C300900D4836789EB2B6105 /* main.m */,
 				4C3002786F4F03E9754B10C6 /* FKPerson.m */,
 				4C3002E44E2E98AC4B3ED04D /* FKPerson.h */,
+				4C300CC090AC5CB1CE33F62E /* PracticeNslog.m */,
+				4C300D1BA65FE4191D8D6765 /* PracticeNslog.h */,
+				4C300998E225EF063E37F02A /* PracticeArray.m */,
+				4C300D8D725086388A2FC9A8 /* PracticeArray.h */,
+				4C300D3072B3DF7DC6FBC279 /* FunctionTest.m */,
+				4C3005142ED22E6CBAB041A6 /* FunctionTest.h */,
+				4C3001217F0EE3CA1ED6D278 /* Varargs.m */,
+				4C300CEAB343A42E6BB56D09 /* Varargs.h */,
 			);
 			path = "Practice-OC";
 			sourceTree = "<group>";
@@ -121,6 +141,10 @@
 			files = (
 				4C3008205B414EDC27BC44A1 /* main.m in Sources */,
 				4C300F1BC5D70EA97357D265 /* FKPerson.m in Sources */,
+				4C3005E98DA790C7C297B4F1 /* PracticeNslog.m in Sources */,
+				4C3003F514DA39D8800C3555 /* PracticeArray.m in Sources */,
+				4C300EE358B01D5C4AEC6B92 /* FunctionTest.m in Sources */,
+				4C300B4D7B852C577611503A /* Varargs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +263,7 @@
 				4C3004154D5DDF6C4848D536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,8 @@
 #import "FKPerson.h"
 #import "PracticeNslog.h"
 #import "PracticeArray.h"
+#import "FunctionTest.h"
+#import "Varargs.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -78,6 +80,22 @@ int main(int argc, const char * argv[]) {
         FKPerson* person = [[FKPerson alloc] init];
         [person setName:@"Simon" andAge:35];
         [person sayHi:@"How do you do!"];
+
+
+        NSLog(@"\n\n*** Practice FunctionTest ***\n");
+        FunctionTest* fTest = [[FunctionTest alloc] init];
+        int x = [fTest max:10 maxy:20];
+        NSLog(@"***The max=%d***", x);
+
+        NSLog(@"\n\n*** Practice FunctionTest with id type ***\n");
+        id fTestId = [[FunctionTest alloc] init];
+        x = [fTestId max:10 maxy:20];
+        NSLog(@"***The max=%d***", x);
+
+        NSLog(@"\n\n *** Practice Varargs ***\n");
+        Varargs* varargs = [[Varargs alloc] init];
+        [varargs test: @"1", @"2", @"3", @"10", @"9", @"8"];
+
 
 //        int i1 = 1, i2 = 2;
 //
