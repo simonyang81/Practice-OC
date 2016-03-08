@@ -13,6 +13,7 @@
 #import "FunctionTest.h"
 #import "Varargs.h"
 #import "MemberVariables.h"
+#import "SimulationClassVariables.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -104,6 +105,13 @@ int main(int argc, const char * argv[]) {
         memberVariables->_age = 18;
         NSLog(@"name=%@, age=%d", memberVariables->_name, memberVariables->_age);
 
+        NSLog(@"\n\n *** Practice Simulation Class Variables ***\n");
+        [SimulationClassVariables setNation:@"中国"];
+        NSLog(@"SimulationClassVariables nation == %@", [SimulationClassVariables nation]);
+
+
+//        SimulationClassVariables* simulationClassVariables = [[SimulationClassVariables alloc] init];
+//        simulationClassVariables.set
 
 //        int i1 = 1, i2 = 2;
 //
