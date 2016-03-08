@@ -12,6 +12,7 @@
 #import "PracticeArray.h"
 #import "FunctionTest.h"
 #import "Varargs.h"
+#import "MemberVariables.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -94,7 +95,14 @@ int main(int argc, const char * argv[]) {
 
         NSLog(@"\n\n *** Practice Varargs ***\n");
         Varargs* varargs = [[Varargs alloc] init];
-        [varargs test: @"1", @"2", @"3", @"10", @"9", @"8"];
+        [varargs test: @"1", @"2", @"3", @"10", @"9", @"8", nil];
+
+        NSLog(@"\n\n *** Practice Member Variables ***\n");
+        MemberVariables* memberVariables = [[MemberVariables alloc] init];
+        NSLog(@"name=%@, age=%d", memberVariables->_name, memberVariables->_age);
+        memberVariables->_name = @"张三";
+        memberVariables->_age = 18;
+        NSLog(@"name=%@, age=%d", memberVariables->_name, memberVariables->_age);
 
 
 //        int i1 = 1, i2 = 2;

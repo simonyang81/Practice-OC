@@ -11,6 +11,8 @@
 }
 
 -(void)test:(NSString *)name, ... {
+
+    // 使用va_list定义一个argList指针变量, 该指针指向可变参数列表
     va_list argList;
 
     if (name) { // 如果第一个参数name存在才需要处理后面的参数
