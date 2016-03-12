@@ -15,6 +15,7 @@
 #import "MemberVariables.h"
 #import "SimulationClassVariables.h"
 #import "PracticeSingleton.h"
+#import "PracticeProperty.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -118,7 +119,13 @@ int main(int argc, const char * argv[]) {
         singleton2->_name = @"王五";
         NSLog(@"Singleton 1 name == %@; Singleton 2 name == %@", singleton1->_name, singleton2->_name);
 
-
+        NSLog(@"\n\n *** Practice Property ***\n");
+        PracticeProperty* practicePro = [[PracticeProperty alloc] init];
+        [practicePro setName:@"admin"];
+        [practicePro setPass:@"adminpass"];
+        [practicePro setBirth:[NSDate date]];
+        NSLog(@"管理员帐号为: %@, 密码为: %@, 生日为: %@",
+                [practicePro name], [practicePro pass], [practicePro birth]);
 
 
 //        SimulationClassVariables* simulationClassVariables = [[SimulationClassVariables alloc] init];
