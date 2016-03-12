@@ -10,6 +10,7 @@
 		4C3003F514DA39D8800C3555 /* PracticeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300998E225EF063E37F02A /* PracticeArray.m */; };
 		4C3005E98DA790C7C297B4F1 /* PracticeNslog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300CC090AC5CB1CE33F62E /* PracticeNslog.m */; };
 		4C3008205B414EDC27BC44A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300900D4836789EB2B6105 /* main.m */; };
+		4C300A1A466DE8DA8C9A89FE /* PracticeSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3005894A22363C2EAB2A79 /* PracticeSingleton.m */; };
 		4C300A9A9D487DF1E412F5BA /* SimulationClassVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300794ACD3F7261ECE52AD /* SimulationClassVariables.m */; };
 		4C300B4D7B852C577611503A /* Varargs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3001217F0EE3CA1ED6D278 /* Varargs.m */; };
 		4C300E80881082AFA04EB257 /* MemberVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300061584420349E713401 /* MemberVariables.m */; };
@@ -35,7 +36,9 @@
 		4C3001F5F3680A18FAA181E7 /* SimulationClassVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationClassVariables.h; sourceTree = "<group>"; };
 		4C3002786F4F03E9754B10C6 /* FKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKPerson.m; sourceTree = "<group>"; };
 		4C3002E44E2E98AC4B3ED04D /* FKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKPerson.h; sourceTree = "<group>"; };
+		4C300304A8851835072E7725 /* PracticeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeSingleton.h; sourceTree = "<group>"; };
 		4C3005142ED22E6CBAB041A6 /* FunctionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionTest.h; sourceTree = "<group>"; };
+		4C3005894A22363C2EAB2A79 /* PracticeSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeSingleton.m; sourceTree = "<group>"; };
 		4C30059BF15EDE4576480B8D /* MemberVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberVariables.h; sourceTree = "<group>"; };
 		4C3006D735F5B835D83E0BBC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		4C300794ACD3F7261ECE52AD /* SimulationClassVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulationClassVariables.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				4C30059BF15EDE4576480B8D /* MemberVariables.h */,
 				4C300794ACD3F7261ECE52AD /* SimulationClassVariables.m */,
 				4C3001F5F3680A18FAA181E7 /* SimulationClassVariables.h */,
+				4C3005894A22363C2EAB2A79 /* PracticeSingleton.m */,
+				4C300304A8851835072E7725 /* PracticeSingleton.h */,
 			);
 			path = "Practice-OC";
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				4C300B4D7B852C577611503A /* Varargs.m in Sources */,
 				4C300E80881082AFA04EB257 /* MemberVariables.m in Sources */,
 				4C300A9A9D487DF1E412F5BA /* SimulationClassVariables.m in Sources */,
+				4C300A1A466DE8DA8C9A89FE /* PracticeSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

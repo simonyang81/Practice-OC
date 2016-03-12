@@ -14,6 +14,7 @@
 #import "Varargs.h"
 #import "MemberVariables.h"
 #import "SimulationClassVariables.h"
+#import "PracticeSingleton.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -108,6 +109,16 @@ int main(int argc, const char * argv[]) {
         NSLog(@"\n\n *** Practice Simulation Class Variables ***\n");
         [SimulationClassVariables setNation:@"中国"];
         NSLog(@"SimulationClassVariables nation == %@", [SimulationClassVariables nation]);
+
+        NSLog(@"\n\n *** Practice Singleton ***\n");
+        PracticeSingleton* singleton1 = [PracticeSingleton instance];
+        singleton1->_name = @"李四";
+        PracticeSingleton* singleton2 = [PracticeSingleton instance];
+        NSLog(@"Singleton 1 name == %@; Singleton 2 name == %@", singleton1->_name, singleton2->_name);
+        singleton2->_name = @"王五";
+        NSLog(@"Singleton 1 name == %@; Singleton 2 name == %@", singleton1->_name, singleton2->_name);
+
+
 
 
 //        SimulationClassVariables* simulationClassVariables = [[SimulationClassVariables alloc] init];
