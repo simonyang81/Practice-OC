@@ -31,4 +31,7 @@
 // 如果程序不需要这种修改影响setter方法设置的成员变量的值, 此时就可考虑使用copy指示符
 @property (nonatomic) NSDate* birth;
 
+@property (nonatomic, copy) NSString* proWithCopy;
+@property (nonatomic) NSString* proWithoutCopy;
+
 @end

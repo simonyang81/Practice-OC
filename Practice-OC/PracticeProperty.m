@@ -14,6 +14,9 @@
 @synthesize pass;
 @synthesize birth;
 
+@synthesize proWithCopy;
+@synthesize proWithoutCopy;
+
 - (void)setName:(NSString *)name {
     self->_name = [NSString stringWithFormat:@"++++%@", name];
 }

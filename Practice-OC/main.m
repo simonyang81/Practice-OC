@@ -127,6 +127,18 @@ int main(int argc, const char * argv[]) {
         NSLog(@"管理员帐号为: %@, 密码为: %@, 生日为: %@",
                 [practicePro name], [practicePro pass], [practicePro birth]);
 
+        NSMutableString* str1 = [NSMutableString stringWithString:@"Simon"];
+        [practicePro setProWithoutCopy:str1];
+        [str1 appendString:@" is a nice man"];
+        NSLog(@"pro without copy: %@", [practicePro proWithoutCopy]);
+
+        NSMutableString* str2 = [NSMutableString stringWithString:@"Simon"];
+        [practicePro setProWithCopy:str2];
+        [str2 appendString:@" is a nice man"];
+        NSLog(@"pro with copy: %@", [practicePro proWithCopy]);
+
+
+
 
 //        SimulationClassVariables* simulationClassVariables = [[SimulationClassVariables alloc] init];
 //        simulationClassVariables.set
