@@ -33,6 +33,9 @@
 // getter、setter: 这两个指示符用于为合成的getter方法、setter方法指定自定义方法名.
 // 例如, getter=abc. 指定getter方法的方法名为abc;
 // setter=xyz: (因为setter方法需要带参数, 不要忘记了冒号), 则指定setter方法的方法名为xyz:
+
+// strong、weak: strong指示符指定该属性对被赋值对象持有强引用;
+// weak指示符指定该属性对被赋值对象持有弱引用
 @property (nonatomic) NSDate* birth;
 
 @property (nonatomic, copy) NSString* proWithCopy;
