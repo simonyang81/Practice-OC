@@ -29,6 +29,10 @@
 // copy指示符会将成员变量所引用对象的引用计数器减1.
 // 当成员变量的类型是可变类型, 或其子类是可变类型时, 被赋值的对象有可能在赋值之后被修改,
 // 如果程序不需要这种修改影响setter方法设置的成员变量的值, 此时就可考虑使用copy指示符
+
+// getter、setter: 这两个指示符用于为合成的getter方法、setter方法指定自定义方法名.
+// 例如, getter=abc. 指定getter方法的方法名为abc;
+// setter=xyz: (因为setter方法需要带参数, 不要忘记了冒号), 则指定setter方法的方法名为xyz:
 @property (nonatomic) NSDate* birth;
 
 @property (nonatomic, copy) NSString* proWithCopy;
