@@ -10,8 +10,8 @@
 
 
 // 让系统自动合成setter和getter方法只要如下两步
-// 1, 在接口部分使用@property指定定义属性.
-// 2, 在类的实现部分使用@synthesize指令声明该属性.
+// 1, 在接口部分(.h文件)使用@property指定定义属性.
+// 2, 在类的实现部分(.m文件)使用@synthesize指令声明该属性.
 @property NSString* name;
 @property NSString* pass;
 

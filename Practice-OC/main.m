@@ -16,6 +16,7 @@
 #import "SimulationClassVariables.h"
 #import "PracticeSingleton.h"
 #import "PracticeProperty.h"
+#import "PracticeKVC.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -85,7 +86,6 @@ int main(int argc, const char * argv[]) {
         [person setName:@"Simon" andAge:35];
         [person sayHi:@"How do you do!"];
 
-
         NSLog(@"\n\n*** Practice FunctionTest ***\n");
         FunctionTest* fTest = [[FunctionTest alloc] init];
         int x = [fTest max:10 maxy:20];
@@ -136,6 +136,13 @@ int main(int argc, const char * argv[]) {
         [practicePro setProWithCopy:str2];
         [str2 appendString:@" is a nice man"];
         NSLog(@"pro with copy: %@", [practicePro proWithCopy]);
+
+
+        NSLog(@"\n\n *** Practice KVC ***\n");
+        PracticeKVC* kvc = [[PracticeKVC alloc] init];
+        [kvc setValue:@"Simon" forKey:@"name"];
+        NSLog(@"Get name (%@) with KVC ", [kvc valueForKey:@"name"]);
+
 
 
 
