@@ -17,6 +17,8 @@
 #import "PracticeSingleton.h"
 #import "PracticeProperty.h"
 #import "PracticeKVC.h"
+#import "SMItem.h"
+#import "PracticeKVO.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -143,7 +145,15 @@ int main(int argc, const char * argv[]) {
         [kvc setValue:@"Simon" forKey:@"name"];
         NSLog(@"Get name (%@) with KVC ", [kvc valueForKey:@"name"]);
 
-
+        NSLog(@"\n\n *** Practice KVO ***\n");
+        SMItem* item = [[SMItem alloc] init];
+        item.name = @"iOS";
+        item.price = 109;
+        PracticeKVO* kvo = [[PracticeKVO alloc] init];
+        kvo.item = item;
+        [kvo showItemInfo];
+        item.name = @"Python";
+        item.price = 69;
 
 
 
