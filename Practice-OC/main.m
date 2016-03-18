@@ -19,6 +19,7 @@
 #import "PracticeKVC.h"
 #import "SMItem.h"
 #import "PracticeKVO.h"
+#import "PracticeInit.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -68,7 +69,6 @@ int main(int argc, const char * argv[]) {
 
     @autoreleasepool {
 
-//        NSLog(@"*** Practice NSLog ***");
         NSLog(@"\n*** Practice NSLog ***\n");
         PracticeNslog* log = [[PracticeNslog alloc] init];
         [log print];
@@ -154,6 +154,12 @@ int main(int argc, const char * argv[]) {
         [kvo showItemInfo];
         item.name = @"Python";
         item.price = 69;
+
+        NSLog(@"\n\n *** Practice initialization method  ***\n");
+        PracticeInit* pInit = [[PracticeInit alloc] init];
+        NSLog(@"User name: %@", pInit.name);
+        NSLog(@"User age: %d", pInit.age);
+        NSLog(@"User address: %@", pInit.address);
 
 
 
