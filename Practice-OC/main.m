@@ -20,6 +20,7 @@
 #import "SMItem.h"
 #import "PracticeKVO.h"
 #import "PracticeInit.h"
+#import "PracticeInit2.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -160,6 +161,16 @@ int main(int argc, const char * argv[]) {
         NSLog(@"User name: %@", pInit.name);
         NSLog(@"User age: %d", pInit.age);
         NSLog(@"User address: %@", pInit.address);
+
+        PracticeInit2* pInit2_1 = [[PracticeInit2 alloc] init];
+        NSLog(@"1. 汽车品牌: %@, 型号: %@, 颜色: %@", pInit2_1.brand, pInit2_1.model, pInit2_1.color);
+
+        PracticeInit2* pInit2_2 = [[PracticeInit2 alloc] initWithBrand:@"奔驰" model:@"ML350"];
+        NSLog(@"2. 汽车品牌: %@, 型号: %@, 颜色: %@", pInit2_2.brand, pInit2_2.model, pInit2_2.color);
+
+        PracticeInit2* pInit2_3 = [[PracticeInit2 alloc] initWithBrand:@"宝马" model:@"X6" color:@"红色"];
+        NSLog(@"3. 汽车品牌: %@, 型号: %@, 颜色: %@", pInit2_3.brand, pInit2_3.model, pInit2_3.color);
+
 
 
 

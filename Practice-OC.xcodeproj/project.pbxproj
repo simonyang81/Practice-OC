@@ -17,6 +17,7 @@
 		4C300A9A9D487DF1E412F5BA /* SimulationClassVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300794ACD3F7261ECE52AD /* SimulationClassVariables.m */; };
 		4C300B4D7B852C577611503A /* Varargs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3001217F0EE3CA1ED6D278 /* Varargs.m */; };
 		4C300C195389FB11849FC0A0 /* PracticeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3006E7F231EEBA91A70729 /* PracticeProperty.m */; };
+		4C300C9FE75A8B9E440EF571 /* PracticeInit2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300BF00BC59A99CC708E20 /* PracticeInit2.m */; };
 		4C300E80881082AFA04EB257 /* MemberVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300061584420349E713401 /* MemberVariables.m */; };
 		4C300EB8D81B3BD6BA4F8E11 /* PracticeKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300D35904BCEA33FBD84E6 /* PracticeKVC.m */; };
 		4C300EE358B01D5C4AEC6B92 /* FunctionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300D3072B3DF7DC6FBC279 /* FunctionTest.m */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		4C300061584420349E713401 /* MemberVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberVariables.m; sourceTree = "<group>"; };
+		4C3000D0FD5EAFEB6C8D649F /* PracticeInit2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeInit2.h; sourceTree = "<group>"; };
 		4C3001217F0EE3CA1ED6D278 /* Varargs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Varargs.m; sourceTree = "<group>"; };
 		4C3001F5F3680A18FAA181E7 /* SimulationClassVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationClassVariables.h; sourceTree = "<group>"; };
 		4C30024D3C4AFC093C0C2CF2 /* PracticeKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeKVO.m; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		4C300998E225EF063E37F02A /* PracticeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeArray.m; sourceTree = "<group>"; };
 		4C300AEDCF231B0E547ACA57 /* SMItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMItem.h; sourceTree = "<group>"; };
 		4C300BB7E63F18BF19C49FB5 /* Practice-OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practice-OC"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C300BF00BC59A99CC708E20 /* PracticeInit2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeInit2.m; sourceTree = "<group>"; };
 		4C300BFAFA89A0621881594D /* SMItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMItem.m; sourceTree = "<group>"; };
 		4C300CC090AC5CB1CE33F62E /* PracticeNslog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeNslog.m; sourceTree = "<group>"; };
 		4C300CEAB343A42E6BB56D09 /* Varargs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Varargs.h; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				4C300AEDCF231B0E547ACA57 /* SMItem.h */,
 				4C3007D91373F1F6D81299B2 /* PracticeInit.m */,
 				4C3007B82BD581BD26FA2D44 /* PracticeInit.h */,
+				4C300BF00BC59A99CC708E20 /* PracticeInit2.m */,
+				4C3000D0FD5EAFEB6C8D649F /* PracticeInit2.h */,
 			);
 			path = "Practice-OC";
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 				4C300487F585E8538AB86F3D /* PracticeKVO.m in Sources */,
 				4C3000E8AEC0ED007073A84A /* SMItem.m in Sources */,
 				4C3005E56EE11D4FD36419A2 /* PracticeInit.m in Sources */,
+				4C300C9FE75A8B9E440EF571 /* PracticeInit2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
