@@ -22,6 +22,7 @@
 #import "PracticeInit.h"
 #import "PracticeInit2.h"
 #import "PracticeOverriding.h"
+#import "WrapperClass.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -176,6 +177,9 @@ int main(int argc, const char * argv[]) {
         SMBird* bird = [[PracticeOverriding alloc] init];
         [bird fly];
 
+        NSLog(@"\n\n *** Practice Wrapper Class  ***\n");
+        WrapperClass* wrapperClass = [[WrapperClass alloc] init];
+        [wrapperClass test];
 
 
 //        SimulationClassVariables* simulationClassVariables = [[SimulationClassVariables alloc] init];
