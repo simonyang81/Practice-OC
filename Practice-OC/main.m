@@ -21,6 +21,7 @@
 #import "PracticeKVO.h"
 #import "PracticeInit.h"
 #import "PracticeInit2.h"
+#import "PracticeOverriding.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -171,6 +172,9 @@ int main(int argc, const char * argv[]) {
         PracticeInit2* pInit2_3 = [[PracticeInit2 alloc] initWithBrand:@"宝马" model:@"X6" color:@"红色"];
         NSLog(@"3. 汽车品牌: %@, 型号: %@, 颜色: %@", pInit2_3.brand, pInit2_3.model, pInit2_3.color);
 
+        NSLog(@"\n\n *** Practice overriding  ***\n");
+        SMBird* bird = [[PracticeOverriding alloc] init];
+        [bird fly];
 
 
 
