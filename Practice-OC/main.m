@@ -23,6 +23,7 @@
 #import "PracticeInit2.h"
 #import "PracticeOverriding.h"
 #import "WrapperClass.h"
+#import "PracticeDescription.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -180,6 +181,11 @@ int main(int argc, const char * argv[]) {
         NSLog(@"\n\n *** Practice Wrapper Class  ***\n");
         WrapperClass* wrapperClass = [[WrapperClass alloc] init];
         [wrapperClass test];
+
+        NSLog(@"\n\n *** Practice Description  ***\n");
+        PracticeDescription* desc = [[PracticeDescription alloc] initWithName:@"Simon"];
+        [desc info];
+        NSLog(@"%@", [desc description]);
 
 
 //        SimulationClassVariables* simulationClassVariables = [[SimulationClassVariables alloc] init];
