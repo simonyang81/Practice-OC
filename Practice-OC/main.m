@@ -24,6 +24,8 @@
 #import "PracticeOverriding.h"
 #import "WrapperClass.h"
 #import "PracticeDescription.h"
+#import "PracticeEqual.h"
+#import "NSNumber+sm.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -186,6 +188,17 @@ int main(int argc, const char * argv[]) {
         PracticeDescription* desc = [[PracticeDescription alloc] initWithName:@"Simon"];
         [desc info];
         NSLog(@"%@", [desc description]);
+
+        NSLog(@"\n\n *** Practice Equal  ***\n");
+        PracticeEqual* pEqual = [[PracticeEqual alloc] init];
+        [pEqual test];
+
+        NSLog(@"\n\n *** Practice Category  ***\n");
+        NSNumber* number = [NSNumber numberWithDouble:3.1];
+        NSLog(@"3.1 + 2.4=%@", [number add:2.4]);
+        NSLog(@"3.1 - 2.4=%@", [number substract:2.4]);
+        NSLog(@"3.1 * 2.4=%@", [number multiply:2.4]);
+        NSLog(@"3.1 / 2.4=%@", [number divide:2.4]);
 
 
 //        SimulationClassVariables* simulationClassVariables = [[SimulationClassVariables alloc] init];
