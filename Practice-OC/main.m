@@ -26,6 +26,8 @@
 #import "PracticeDescription.h"
 #import "PracticeEqual.h"
 #import "NSNumber+sm.h"
+#import "PracticeCallPrivate.h"
+#import "PracticeCallPrivate+sm.h"
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -199,6 +201,10 @@ int main(int argc, const char * argv[]) {
         NSLog(@"3.1 - 2.4=%@", [number substract:2.4]);
         NSLog(@"3.1 * 2.4=%@", [number multiply:2.4]);
         NSLog(@"3.1 / 2.4=%@", [number divide:2.4]);
+
+        NSLog(@"\n\n *** Practice Call Private Method  ***\n");
+        PracticeCallPrivate* callPrivate = [[PracticeCallPrivate alloc] init];
+        NSLog(@"price(1.25) * discount(.75) = %f", [callPrivate calDiscount:.75]);
 
 
 //        SimulationClassVariables* simulationClassVariables = [[SimulationClassVariables alloc] init];

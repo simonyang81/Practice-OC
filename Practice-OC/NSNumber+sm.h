@@ -5,6 +5,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ * Objective-C Category
+ *
+ */
 @interface NSNumber (sm)
 
 - (NSNumber *) add:(double) num2;
