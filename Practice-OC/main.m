@@ -28,6 +28,9 @@
 #import "NSNumber+sm.h"
 #import "PracticeCallPrivate.h"
 #import "PracticeCallPrivate+sm.h"
+#import "SMReflection1.h"
+
+#import <objc/message.h>
 
 void swap(int* p1, int* p2) {
     int tmp = *p1;
@@ -205,6 +208,37 @@ int main(int argc, const char * argv[]) {
         NSLog(@"\n\n *** Practice Call Private Method  ***\n");
         PracticeCallPrivate* callPrivate = [[PracticeCallPrivate alloc] init];
         NSLog(@"price(1.25) * discount(.75) = %f", [callPrivate calDiscount:.75]);
+
+        NSLog(@"\n\n *** Practice Reflection  ***\n");
+        SMReflection1* reflection = [[SMReflection1 alloc] init];
+        [reflection printNSDateClass];
+
+
+        Class clazz = NSClassFromString(@"SMDynamicInvocation");
+        // 动态创建SMDynamicInvocation对象
+        id dynamic = [[clazz alloc] init];
+        [dynamic performSelector:@selector(addSpeed:) withObject:[NSNumber numberWithDouble:3.4]];
+
+        objc_msgSend(dynamic, @selector(addSpeed:), 3.4);
+
+        // 定义函数指针变量
+        double (*addSpeed)(id, SEL, double);
+
+        /**
+         * NSObject还提供 -(IMP) methodForSelector:(SEL)aSelector.
+         * 该方法根据传入的SEL参数, 返回该方法对应的IMP对象
+         * IMP代表指向Objective-C方法的函数指针
+         *
+         * 定义指向Objective-C方法的函数变量,
+         * ``` 返回值类型 (* 指针变量名) (id, SEL, ...) ```
+         */
+        addSpeed = (double(*)(id, SEL, double)) [dynamic methodForSelector:NSSelectorFromString(@"addSpeed:")];
+
+        // 通过挨刀的Speed函数指针变量调用dynamic对象的方法
+        double speed = addSpeed(dynamic, @selector(addSpeed:), 2.4);
+        NSLog(@"加速后的速度为: %g", speed);
+
+
 
 
 //        SimulationClassVariables* simulationClassVariables = [[SimulationClassVariables alloc] init];
