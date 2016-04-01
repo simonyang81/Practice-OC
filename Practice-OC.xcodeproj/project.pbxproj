@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C3000E8AEC0ED007073A84A /* SMItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300BFAFA89A0621881594D /* SMItem.m */; };
 		4C30027EA80AEEAC13771884 /* PracticeCallPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3003C1A670750423D599B1 /* PracticeCallPrivate.m */; };
+		4C3003B5DEB2AC825B5734D4 /* SMReflection1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3006F81C8E25E48AEFA4CC /* SMReflection1.m */; };
 		4C3003F514DA39D8800C3555 /* PracticeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300998E225EF063E37F02A /* PracticeArray.m */; };
 		4C300487F585E8538AB86F3D /* PracticeKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C30024D3C4AFC093C0C2CF2 /* PracticeKVO.m */; };
 		4C300539FD6FDB70A7D5725F /* WrapperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300DCA135649819147E2BB /* WrapperClass.m */; };
@@ -19,8 +20,10 @@
 		4C300A9A9D487DF1E412F5BA /* SimulationClassVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300794ACD3F7261ECE52AD /* SimulationClassVariables.m */; };
 		4C300AD1CA020838F25EB268 /* PracticeEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300E923A2EF3B061CE922F /* PracticeEqual.m */; };
 		4C300B21ACF9ABC80B11DE6A /* PracticeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300A4D21551EBFC0AB912B /* PracticeDescription.m */; };
+		4C300B2A0BE33EDE70658B58 /* SMDynamicInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3006DA11911EC18B3061FE /* SMDynamicInvocation.m */; };
 		4C300B4D7B852C577611503A /* Varargs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3001217F0EE3CA1ED6D278 /* Varargs.m */; };
 		4C300B4F90CE4D10B2229F99 /* PracticeOverriding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3006AB59D930810AAAA34F /* PracticeOverriding.m */; };
+		4C300B9882A0057541E38533 /* PracticeNSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C30001FD67B399B7D21ADDC /* PracticeNSDate.m */; };
 		4C300C195389FB11849FC0A0 /* PracticeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3006E7F231EEBA91A70729 /* PracticeProperty.m */; };
 		4C300C9FE75A8B9E440EF571 /* PracticeInit2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300BF00BC59A99CC708E20 /* PracticeInit2.m */; };
 		4C300CE32E75346989B7D216 /* NSNumber+sm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3009D1FAFC9572CD42DD9C /* NSNumber+sm.m */; };
@@ -45,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C30001FD67B399B7D21ADDC /* PracticeNSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeNSDate.m; sourceTree = "<group>"; };
 		4C300061584420349E713401 /* MemberVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberVariables.m; sourceTree = "<group>"; };
 		4C3000D0FD5EAFEB6C8D649F /* PracticeInit2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeInit2.h; sourceTree = "<group>"; };
 		4C3001217F0EE3CA1ED6D278 /* Varargs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Varargs.m; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		4C3002E44E2E98AC4B3ED04D /* FKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKPerson.h; sourceTree = "<group>"; };
 		4C300304A8851835072E7725 /* PracticeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeSingleton.h; sourceTree = "<group>"; };
 		4C3003C1A670750423D599B1 /* PracticeCallPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeCallPrivate.m; sourceTree = "<group>"; };
+		4C3004A87AC7EA8CE542B612 /* SMReflection1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMReflection1.h; sourceTree = "<group>"; };
+		4C3004F5F7A62ED65864D154 /* SMDynamicInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMDynamicInvocation.h; sourceTree = "<group>"; };
 		4C3005142ED22E6CBAB041A6 /* FunctionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionTest.h; sourceTree = "<group>"; };
 		4C3005894A22363C2EAB2A79 /* PracticeSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeSingleton.m; sourceTree = "<group>"; };
 		4C30059BF15EDE4576480B8D /* MemberVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberVariables.h; sourceTree = "<group>"; };
@@ -63,11 +69,14 @@
 		4C3006A5AE9B2DB8FEB21DB0 /* PracticeProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeProperty.h; sourceTree = "<group>"; };
 		4C3006AB59D930810AAAA34F /* PracticeOverriding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeOverriding.m; sourceTree = "<group>"; };
 		4C3006D735F5B835D83E0BBC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		4C3006DA11911EC18B3061FE /* SMDynamicInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMDynamicInvocation.m; sourceTree = "<group>"; };
 		4C3006E7F231EEBA91A70729 /* PracticeProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeProperty.m; sourceTree = "<group>"; };
+		4C3006F81C8E25E48AEFA4CC /* SMReflection1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMReflection1.m; sourceTree = "<group>"; };
 		4C30078E0B36E10ABB81C70A /* PracticeKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeKVC.h; sourceTree = "<group>"; };
 		4C300794ACD3F7261ECE52AD /* SimulationClassVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulationClassVariables.m; sourceTree = "<group>"; };
 		4C3007B82BD581BD26FA2D44 /* PracticeInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeInit.h; sourceTree = "<group>"; };
 		4C3007D91373F1F6D81299B2 /* PracticeInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeInit.m; sourceTree = "<group>"; };
+		4C30086B8D72FF5A75348247 /* PracticeNSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeNSDate.h; sourceTree = "<group>"; };
 		4C3008B123747AD9A0229D33 /* WrapperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrapperClass.h; sourceTree = "<group>"; };
 		4C300900D4836789EB2B6105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C30098743B721D56E65D2DC /* PracticeOverriding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeOverriding.h; sourceTree = "<group>"; };
@@ -161,6 +170,12 @@
 				4C300FF405B742A21A69E1AC /* PracticeCallPrivate.h */,
 				4C300A10C1DF950092923059 /* PracticeCallPrivate+sm.m */,
 				4C300643356F58843E087B63 /* PracticeCallPrivate+sm.h */,
+				4C3004F5F7A62ED65864D154 /* SMDynamicInvocation.h */,
+				4C3006DA11911EC18B3061FE /* SMDynamicInvocation.m */,
+				4C3004A87AC7EA8CE542B612 /* SMReflection1.h */,
+				4C3006F81C8E25E48AEFA4CC /* SMReflection1.m */,
+				4C30001FD67B399B7D21ADDC /* PracticeNSDate.m */,
+				4C30086B8D72FF5A75348247 /* PracticeNSDate.h */,
 			);
 			path = "Practice-OC";
 			sourceTree = "<group>";
@@ -247,6 +262,9 @@
 				4C300CE32E75346989B7D216 /* NSNumber+sm.m in Sources */,
 				4C30027EA80AEEAC13771884 /* PracticeCallPrivate.m in Sources */,
 				4C300F155698E27F944AF205 /* PracticeCallPrivate+sm.m in Sources */,
+				4C300B2A0BE33EDE70658B58 /* SMDynamicInvocation.m in Sources */,
+				4C3003B5DEB2AC825B5734D4 /* SMReflection1.m in Sources */,
+				4C300B9882A0057541E38533 /* PracticeNSDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +274,7 @@
 		4C3004154D5DDF6C4848D536 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -263,6 +282,7 @@
 		4C3004737BF8B8DCDCD4DB7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;

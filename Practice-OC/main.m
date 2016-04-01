@@ -29,6 +29,7 @@
 #import "PracticeCallPrivate.h"
 #import "PracticeCallPrivate+sm.h"
 #import "SMReflection1.h"
+#import "PracticeNSDate.h"
 
 #import <objc/message.h>
 
@@ -221,7 +222,14 @@ int main(int argc, const char * argv[]) {
 
         objc_msgSend(dynamic, @selector(addSpeed:), 3.4);
 
-        // 定义函数指针变量
+        /**
+         * 定义函数指针变量
+         * 返回值类型 (* 指针变量名) (id, SEL, ...)
+         * id: 代表方法调用者
+         * SEL: 代表方法
+         * 接下来可以声明调用该方法所需要的参数
+         *
+         */
         double (*addSpeed)(id, SEL, double);
 
         /**
@@ -234,9 +242,13 @@ int main(int argc, const char * argv[]) {
          */
         addSpeed = (double(*)(id, SEL, double)) [dynamic methodForSelector:NSSelectorFromString(@"addSpeed:")];
 
-        // 通过挨刀的Speed函数指针变量调用dynamic对象的方法
+        // 通过addSpeed函数指针变量调用dynamic对象的方法
         double speed = addSpeed(dynamic, @selector(addSpeed:), 2.4);
         NSLog(@"加速后的速度为: %g", speed);
+
+        //
+        PracticeNSDate* practiceNSDate = [[PracticeNSDate alloc] init];
+        [practiceNSDate execute];
 
 
 
