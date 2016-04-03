@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <objc/NSObject.h>
 
 
 @interface Varargs : NSObject
