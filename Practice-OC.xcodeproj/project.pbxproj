@@ -33,6 +33,8 @@
 		4C300F155698E27F944AF205 /* PracticeCallPrivate+sm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300A10C1DF950092923059 /* PracticeCallPrivate+sm.m */; };
 		4C300F1BC5D70EA97357D265 /* FKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3002786F4F03E9754B10C6 /* FKPerson.m */; };
 		4C300FFE9809036222CD8703 /* SMBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300A1B9443B63A711AD597 /* SMBird.m */; };
+		685F04E57700DF24BD20833C /* SMMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 685F07731179DAB0B5E124E9 /* SMMenu.m */; };
+		685F0D2B13C3C58CE3C6F0D6 /* SMOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 685F0BED4D3EC740937B102F /* SMOrder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +103,10 @@
 		4C300F61BBBC9909C47B120F /* NSNumber+sm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+sm.h"; sourceTree = "<group>"; };
 		4C300FF405B742A21A69E1AC /* PracticeCallPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeCallPrivate.h; sourceTree = "<group>"; };
 		4C300FFD425D837F89D24714 /* PracticeDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeDescription.h; sourceTree = "<group>"; };
+		685F07731179DAB0B5E124E9 /* SMMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMenu.m; sourceTree = "<group>"; };
+		685F0BED4D3EC740937B102F /* SMOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMOrder.m; sourceTree = "<group>"; };
+		685F0D8FA4B7E32C5DBAACC0 /* SMOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMOrder.h; sourceTree = "<group>"; };
+		685F0EC12B025921852F9674 /* SMMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMenu.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +182,10 @@
 				4C3006F81C8E25E48AEFA4CC /* SMReflection1.m */,
 				4C30001FD67B399B7D21ADDC /* PracticeNSDate.m */,
 				4C30086B8D72FF5A75348247 /* PracticeNSDate.h */,
+				685F0BED4D3EC740937B102F /* SMOrder.m */,
+				685F07731179DAB0B5E124E9 /* SMMenu.m */,
+				685F0EC12B025921852F9674 /* SMMenu.h */,
+				685F0D8FA4B7E32C5DBAACC0 /* SMOrder.h */,
 			);
 			path = "Practice-OC";
 			sourceTree = "<group>";
@@ -265,6 +275,8 @@
 				4C300B2A0BE33EDE70658B58 /* SMDynamicInvocation.m in Sources */,
 				4C3003B5DEB2AC825B5734D4 /* SMReflection1.m in Sources */,
 				4C300B9882A0057541E38533 /* PracticeNSDate.m in Sources */,
+				685F0D2B13C3C58CE3C6F0D6 /* SMOrder.m in Sources */,
+				685F04E57700DF24BD20833C /* SMMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
