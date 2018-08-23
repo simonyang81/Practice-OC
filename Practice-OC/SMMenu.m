@@ -30,6 +30,7 @@
 #import "PracticeCallPrivate+sm.h"
 #import "SMReflection1.h"
 #import "PracticeNSDate.h"
+#import "PracticeGCD.h"
 
 @implementation SMMenu {
 
@@ -58,6 +59,7 @@
     NSLog(@"17: Call Private");
     NSLog(@"18: Reflection");
     NSLog(@"19: NSDate");
+    NSLog(@"20: GCD");
 
     NSLog(@"0: exit");
 
@@ -164,6 +166,10 @@
 
         case 19:
             [self practiceNSDate];
+            break;
+
+        case 20:
+            [self practiceGCD];
             break;
 
         default:
@@ -367,6 +373,14 @@
         PracticeNSDate* practiceNSDate = [[PracticeNSDate alloc] init];
         [practiceNSDate execute];
     }
+}
+
+-(void)practiceGCD{
+    @autoreleasepool {
+        PracticeGCD *practiceGCD = [[PracticeGCD alloc] init];
+        [practiceGCD execute];
+    }
+
 }
 
 @end

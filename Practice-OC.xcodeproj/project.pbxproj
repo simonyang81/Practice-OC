@@ -35,6 +35,7 @@
 		4C300FFE9809036222CD8703 /* SMBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C300A1B9443B63A711AD597 /* SMBird.m */; };
 		685F04E57700DF24BD20833C /* SMMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 685F07731179DAB0B5E124E9 /* SMMenu.m */; };
 		685F0D2B13C3C58CE3C6F0D6 /* SMOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 685F0BED4D3EC740937B102F /* SMOrder.m */; };
+		D404DD853D683EEE0F5CA2EF /* PracticeGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = D404DD40DB428E9B5E8A51E9 /* PracticeGCD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -107,6 +108,8 @@
 		685F0BED4D3EC740937B102F /* SMOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMOrder.m; sourceTree = "<group>"; };
 		685F0D8FA4B7E32C5DBAACC0 /* SMOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMOrder.h; sourceTree = "<group>"; };
 		685F0EC12B025921852F9674 /* SMMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMenu.h; sourceTree = "<group>"; };
+		D404D09FE57ED2CCD864A5BC /* PracticeGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeGCD.h; sourceTree = "<group>"; };
+		D404DD40DB428E9B5E8A51E9 /* PracticeGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeGCD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,8 @@
 				685F07731179DAB0B5E124E9 /* SMMenu.m */,
 				685F0EC12B025921852F9674 /* SMMenu.h */,
 				685F0D8FA4B7E32C5DBAACC0 /* SMOrder.h */,
+				D404DD40DB428E9B5E8A51E9 /* PracticeGCD.m */,
+				D404D09FE57ED2CCD864A5BC /* PracticeGCD.h */,
 			);
 			path = "Practice-OC";
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				4C300B9882A0057541E38533 /* PracticeNSDate.m in Sources */,
 				685F0D2B13C3C58CE3C6F0D6 /* SMOrder.m in Sources */,
 				685F04E57700DF24BD20833C /* SMMenu.m in Sources */,
+				D404DD853D683EEE0F5CA2EF /* PracticeGCD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
