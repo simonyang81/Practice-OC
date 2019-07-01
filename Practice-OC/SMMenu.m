@@ -31,6 +31,7 @@
 #import "SMReflection1.h"
 #import "PracticeNSDate.h"
 #import "PracticeGCD.h"
+#import "PracticeBlockLifecycle.h"
 
 @implementation SMMenu {
 
@@ -60,6 +61,7 @@
     NSLog(@"18: Reflection");
     NSLog(@"19: NSDate");
     NSLog(@"20: GCD");
+    NSLog(@"21: Block - Lifecycle");
 
     NSLog(@"0: exit");
 
@@ -171,6 +173,14 @@
         case 20:
             [self practiceGCD];
             break;
+
+        case 21:
+            @autoreleasepool {
+                PracticeBlockLifecycle *blockLifecycle = [[PracticeBlockLifecycle alloc] init];
+                [blockLifecycle execute:@"SIMON Y"];
+            }
+            break;
+
 
         default:
             NSLog(@"No There");
